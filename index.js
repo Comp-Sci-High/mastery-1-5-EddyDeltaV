@@ -5,6 +5,8 @@ let supplyList = ["Pencils", "Erasers"];
 // This function should take in a new item as an input, add it to the supplyList array, console log the added item, and then return the new item
 function addItems(newItem){
 supplyList.push(newItem)
+console.log(newItem)
+return newItem
 }
 // Code to Modularize
 // let newItem1 = "Markers"
