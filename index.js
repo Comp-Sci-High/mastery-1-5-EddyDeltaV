@@ -31,6 +31,7 @@ console.log(supplyList)
 // The function should return supplyList's length
 function remainingItems(){
 console.log("The supply list has " + supplyList.length + " item(s).")
+return supplyList.length
 }
 
 // 6. Call your remainingItems function.
